@@ -4,7 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-
+\node_modules\.staging\@babel\compat-data-56611f06\LICENSE
 # testing
 /coverage
 
