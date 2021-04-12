@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
 
 :root {
   --primary-white: #fff;
   --primary-orange: #f9ab00;
-  --primary-dark: rgba(255,255,255, 0);
+  --primary-dark: rgba(255, 255, 255, 0);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
 }
 
 body {
-font-family: "Roboto Condesed", sans-serif;
+  font-family: "Roboto Condesed", sans-serif;
 }
-
 
 /************************ NAVBAR *********************************/
 
@@ -25,7 +24,7 @@ nav {
 
 /*----- MENU LINKS --------*/
 nav a.nav-link {
-  font-size: .8rem;
+  font-size: 0.8rem;
   letter-spacing: 0.0375rem;
   cursor: pointer;
 }
@@ -47,20 +46,20 @@ nav ul li {
   height: 6rem !important;
 }
 
-@media(max-width: 768px) {
- .navbar-brand {
-   width: 7rem;
- }
+@media (max-width: 768px) {
+  .navbar-brand {
+    width: 7rem;
+  }
 }
 
-.navbar-nav > li > a.active,  .navbar-nav > li > a.active:focus {
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
 }
-
 
 /************************ HEADER *********************************/
 
@@ -98,13 +97,12 @@ nav ul li {
   color: var(--primary-white);
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .main-info h1 {
     font-size: 1.7rem !important;
   }
   .typed-text {
     font-size: 1.3rem !important;
-
   }
 }
 
@@ -122,7 +120,7 @@ nav ul li {
   text-decoration: none;
   background-color: var(--primary-hover-red);
   color: var(--primary-white);
-  transition:  .2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 /*-------- PARTICLES JS ---------------*/
@@ -133,8 +131,33 @@ nav ul li {
   z-index: 1;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .particles-canvas {
     display: none;
+  }
+}
+
+/************************ ABOUT ME *********************************/
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 16rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 1px solid var(--primary-orange);
+}
+
+.about-heading {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+
+@media (max-width: 468px) {
+  .profile-img {
+    width: 10rem;
   }
 }
