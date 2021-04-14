@@ -13,7 +13,7 @@ const AboutMe = () => {
         <div className="col-lg-6 col-xm-12">
           <h1 className="about-heading">about me</h1>
           <p>
-            Hello! I am Andrew. I have been developing websites for over 5 years. I'm Full-Stack Web Developer. Technologies I use is MERN(MongoDB, Express, ReactJS and NodeJS).
+            Hello! I am Altan. I have been developing websites for over 3 years. I'm Full-Stack Web Developer. Technologies I use is AVRN(Angular 2+, VueJs, ReactJS and NodeJS).
 
             I create responsive websites that are displayed on all devices desktops and smartphones.
 
