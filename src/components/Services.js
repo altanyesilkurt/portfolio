@@ -1,47 +1,50 @@
-import React from "react";
+import { faPhoenixFramework } from "@fortawesome/free-brands-svg-icons";
+import { faDatabase, faDesktop, faPhoneAlt, faTasks } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons";
-import { faDesktop, faFileCode } from "@fortawesome/free-solid-svg-icons";
+import React from "react";
 
 const Services = () => {
   return (
     <div className="services">
-      <h1 className="py-5">my services</h1>
+      <h1 className="py-5">knowledge</h1>
       <div className="container">
         <div className="row">
           <div className="col-md-3 col-sm-6">
             <div className="box">
               <div className="circle"><FontAwesomeIcon className="icon" icon={faDesktop} size="2x" /></div>
-              <h3>Web Design</h3>
-              <p>I approach each project individually and always focus on the result.</p>
+              <h3>Front End Design</h3>
+              <p>I specialize in front-end design and love fine tuning a great layout.I have worked with Bootstrap,Materialize(Angular Material,Devextreme vs.) and other front-end
+              frameworks
+              </p>
             </div>
           </div>
           {/* - */}
           <div className="col-md-3 col-sm-6">
             <div className="box">
-              <div className="circle"><FontAwesomeIcon className="icon" icon={faFileCode} size="2x" /></div>
+              <div className="circle"><FontAwesomeIcon className="icon" icon={faDatabase} size="2x" /></div>
 
-              <h3>Web Development</h3>
-              <p>Your website will be build with an new proven technologies.</p>
+              <h3>Full Stack Web Development</h3>
+              <p>I am trained int the .NET/C#,Java,Mysql,Javascript,CSS3
+                ,HTML5 stack.I have also explored PHP/Laravel development</p>
             </div>
           </div>
           {/* - */}
           <div className="col-md-3 col-sm-6">
             <div className="box">
-              <div className="circle"><FontAwesomeIcon className="icon" icon={faFacebookF} size="2x" /></div>
+              <div className="circle"><FontAwesomeIcon className="icon" icon={faPhoenixFramework} size="2x" /></div>
 
-              <h3>Facebook Ads SMM</h3>
-              <p>Your potential clients well see your services or product on Facebook</p>
+              <h3>UI/UX Design</h3>
+              <p>I have worked with Adobe XD and have heavily researched effective UI/UX Design.I desire to continue to grow my knowledge in this area</p>
             </div>
           </div>
           {/* - */}
           <div className="col-md-3 col-sm-6">
             <div className="box">
-              <div className="circle"><FontAwesomeIcon className="icon" icon={faGoogle} size="2x" /></div>
+              <div className="circle"><FontAwesomeIcon className="icon" icon={faTasks} size="2x" /></div>
 
-              <h3>Google Ads</h3>
-              <p>Your service or product will appear at the top of the Google search</p>.
-              </div>
+              <h3>Agile Project Experience</h3>
+              <p>I have experinece working on an Agile project and have experince with SCRUM standups.I have also worked in small and large organizations.</p>
+            </div>
           </div>
         </div>
       </div>
