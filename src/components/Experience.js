@@ -30,7 +30,7 @@ const Experience = () => {
                     <div className="timeline-content">
                         <h3>2020-2021</h3>
                         <p>I worked as a software developer at CFM Cooling and Automation company <br />I developed the Frontend layers using HTML5,CSS3, Angular 8,Angular Material, DevExtreme Material.
-                        <br />I exprerienced Docker and its tools<br />I created running unit test and worked on integration testing using with karma, jasmine (over 1000+) , Selenium
+                        <br />I experienced Docker and its tools<br />I created running unit test and worked on integration testing using with karma, jasmine (over 1000+) , Selenium
                         <br />I worked on agile scrum methodology and involving in stand-up meetings to monitor progress(JIRA)</p>
                     </div>
                 </div>

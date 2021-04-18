@@ -114,6 +114,11 @@ nav ul li {
 }
 
 /*-------- HEADER MAIN OFFER BUTTON ---------------*/
+.btn-link{
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  margin: 2rem;
+  cursor: pointer;
+}
 .btn-main-offer {
   border: 1px solid var(--primary-red);
   text-transform: uppercase;

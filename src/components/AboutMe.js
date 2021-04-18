@@ -15,7 +15,7 @@ const AboutMe = () => {
           <p>
             Hello! I am Altan. I have been developing websites for over 3 years. I'm Full-Stack Web Developer. Technologies I use is AVRN(Angular 2+, VueJs, ReactJS and NodeJS).
 
-            I create responsive websites that are displayed on all devices desktops and smartphones.
+            I create responsive websites that are displayed on all devices such as desktop apps and smartphones.
 
             Of course, before I begin developing any webapp, Landing Page, Business Website or E-commerce, I need to have a ready-made project layout (sketch).
 
