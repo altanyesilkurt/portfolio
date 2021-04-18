@@ -117,7 +117,7 @@ nav ul li {
 .btn-main-offer {
   border: 1px solid var(--primary-red);
   text-transform: uppercase;
-  border-radius: 0;
+  border-radius: 1rem;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
   margin: 2rem;
@@ -413,11 +413,9 @@ nav ul li {
     }
   }
 
-
 /************************ CONTACTS COMPONENT *********************************/
 .contacts {
   background: var(--primary-dark);
-  padding: 3rem 0;
 }
 
 .contacts h1 {

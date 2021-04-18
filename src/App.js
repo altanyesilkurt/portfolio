@@ -8,11 +8,13 @@ import Services from './components/Services';
 import Experience from './components/Experience';
 import Portfolio from './components/Portfolio';
 import Contacts from './components/Contacts';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
       <Particles
+        id="home"
         className="particles-canvas"
         params={{
           particles: {
@@ -37,8 +39,9 @@ function App() {
       <AboutMe />
       <Services />
       <Experience />
-      <Portfolio/>
-      <Contacts/>
+      <Portfolio />
+      <Contacts />
+      <Footer />
     </>
   );
 }

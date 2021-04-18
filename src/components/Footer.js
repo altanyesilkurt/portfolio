@@ -7,7 +7,9 @@ import {
   RedditShareButton,
   RedditIcon,
   LinkedinShareButton,
-  LinkedinIcon
+  LinkedinIcon,
+  WhatsappShareButton,
+  WhatsappIcon
 } from "react-share";
 
 const Footer = () => {
@@ -17,13 +19,13 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="d-flex">
-              <p>city Moscow Main st 2020 office #223</p>
+              <p>İzmir</p>
             </div>
             <div className="d-flex">
-              <a href="tel:555-555-555">+7(960)555-5555</a>
+              <a href="tel:555-555-555">+90(544)241 78 63</a>
             </div>
             <div className="d-flex">
-              <p>8020coding@gmail.com</p>
+              <p>altanyesilkurt@gmail.com</p>
             </div>
           </div>
           <div className="col-lg-3 col-md-2 col-sm-6">
@@ -60,13 +62,13 @@ const Footer = () => {
               >
                 <TwitterIcon className="mx-3" size={36} />
               </TwitterShareButton>
-              <RedditShareButton
+              <WhatsappShareButton
                 url={"https://www.youtube.com/8020coding"}
                 quote={"FullStack Developer"}
                 hashtag="#javascript"
               >
-                <RedditIcon className="mx-3" size={36} />
-              </RedditShareButton>
+                <WhatsappIcon className="mx-3" size={36} />
+              </WhatsappShareButton>
               <LinkedinShareButton
                 url={"https://www.youtube.com/8020coding"}
                 quote={"FullStack Developer"}
@@ -77,7 +79,7 @@ const Footer = () => {
             </div>
             <p className="pt-3 text-center">
               Copyright&copy;
-              {new Date().getFullYear()}&nbsp;New Horizon | All Rights Reserved
+              {new Date().getFullYear()}&nbsp;Altan Yesilkurt | All Rights Reserved
             </p>
           </div>
         </div>
