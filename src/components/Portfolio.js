@@ -80,7 +80,7 @@ const Portfolio = () => {
             <>
                 <img className="portfolio-image-popupbox" src={portfolio} alt="Portfolio Project..." />
                 <p>I developed my portfolio webpage using ReactJS, Material UI ,Html5 and Css3.</p>
-                <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://portfolio-rea-and-material-ui.herokuapp.com/", "_blank")}>https://portfolio-rea-and-material-ui.herokuapp.com/</a>
+                <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://altanyesilkurt.netlify.app/", "_blank")}>https://altanyesilkurt.netlify.app/</a>
                 <br />
                 <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/altanyesilkurt/portfolio", "_blank")}>https://github.com/altanyesilkurt/portfolio</a>
             </>

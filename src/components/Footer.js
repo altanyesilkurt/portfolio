@@ -42,28 +42,28 @@ const Footer = () => {
           <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
             <div className="d-flex justify-content-center">
               <FacebookShareButton
-                url={"https://www.youtube.com/8020coding"}
+                url={"https://altanyesilkurt.netlify.app/"}
                 quote={"FullStack Developer"}
                 hashtag="#javascript"
               >
                 <FacebookIcon className="mx-3" size={36} />
               </FacebookShareButton>
               <TwitterShareButton
-                url={"https://www.youtube.com/8020coding"}
+                url={"https://altanyesilkurt.netlify.app/"}
                 quote={"FullStack Developer"}
                 hashtag="#javascript"
               >
                 <TwitterIcon className="mx-3" size={36} />
               </TwitterShareButton>
               <WhatsappShareButton
-                url={"https://www.youtube.com/8020coding"}
+                url={"https://altanyesilkurt.netlify.app/"}
                 quote={"FullStack Developer"}
                 hashtag="#javascript"
               >
                 <WhatsappIcon className="mx-3" size={36} />
               </WhatsappShareButton>
               <LinkedinShareButton
-                url={"https://www.youtube.com/8020coding"}
+                url={"https://altanyesilkurt.netlify.app/"}
                 quote={"FullStack Developer"}
                 hashtag="#javascript"
               >
