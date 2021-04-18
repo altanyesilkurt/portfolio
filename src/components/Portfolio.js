@@ -1,14 +1,14 @@
-import React from "react";
-import socket from "../images/socket.png";
-import travel from "../images/travel.png";
-import portfolio from "../images/portfolio.png";
-import object from "../images/object.png";
+import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
+import React from "react";
 // REACT POPUPBOX
-import { PopupboxManager, PopupboxContainer } from "react-popupbox";
+import { PopupboxContainer, PopupboxManager } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
+import object from "../images/object.png";
+import portfolio from "../images/portfolio.png";
+import socket from "../images/socket.png";
+import travel from "../images/travel.png";
 
 
 const Portfolio = () => {
@@ -24,6 +24,14 @@ const Portfolio = () => {
             </>
         )
         PopupboxManager.open({ content })
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    text: "Live Chat Bubbles.",
+                },
+            },
+        });
     }
 
     const popupboxConfigSocketIO = {
@@ -47,6 +55,14 @@ const Portfolio = () => {
             </>
         )
         PopupboxManager.open({ content })
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    text: "Travel Website Project.",
+                },
+            },
+        });
     }
 
     const popupboxConfigTravelWebsite = {
@@ -70,6 +86,15 @@ const Portfolio = () => {
             </>
         )
         PopupboxManager.open({ content })
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    text: "Portfolio React and Material UI project.",
+                },
+            },
+        });
+
     }
 
     const popupboxConfigPortfolio = {
@@ -92,12 +117,20 @@ const Portfolio = () => {
             </>
         )
         PopupboxManager.open({ content })
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    text: "Multiple Object Recognition on Videos Using Deep Learning Methods.",
+                },
+            },
+        });
     }
 
     const popupboxConfigObjectRecognition = {
         titleBar: {
             enable: true,
-            text: "Multiple Object Recognition on Videos Using Deep Learning Methods"
+            text: "Multiple Object Recognition on Videos Using Deep Learning Methods."
         },
         fadeIn: true,
         fadeInSpeed: 500

@@ -1,13 +1,8 @@
 import React from "react";
 import {
-  FacebookShareButton,
-  FacebookIcon,
-  TwitterShareButton,
-  TwitterIcon,
-  LinkedinShareButton,
-  LinkedinIcon,
-  WhatsappShareButton,
-  WhatsappIcon
+  FacebookIcon, FacebookShareButton,
+  LinkedinIcon, LinkedinShareButton, TwitterIcon, TwitterShareButton,
+  WhatsappIcon, WhatsappShareButton
 } from "react-share";
 
 const Footer = () => {
@@ -20,7 +15,7 @@ const Footer = () => {
               <p>İzmir</p>
             </div>
             <div className="d-flex">
-              <a href="tel:555-555-555">+90(544)241 78 63</a>
+              <a href="tel:05442417863">+90(544)241 78 63</a>
             </div>
             <div className="d-flex">
               <p>altanyesilkurt@gmail.com</p>
