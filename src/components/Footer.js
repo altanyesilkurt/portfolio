@@ -4,8 +4,6 @@ import {
   FacebookIcon,
   TwitterShareButton,
   TwitterIcon,
-  RedditShareButton,
-  RedditIcon,
   LinkedinShareButton,
   LinkedinIcon,
   WhatsappShareButton,
