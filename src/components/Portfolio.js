@@ -2,7 +2,7 @@ import React from "react";
 import socket from "../images/socket.png";
 import travel from "../images/travel.png";
 import portfolio from "../images/portfolio.png";
-import taskManager from "../images/task-manager.png";
+import object from "../images/object.png";
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
@@ -17,7 +17,7 @@ const Portfolio = () => {
         const content = (
             <>
                 <img className="portfolio-image-popupbox" src={socket} alt="Live Chat Bubbles Project..." />
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
+                <p>I developed real-time chat-bubble application using with NodeJS , AngularJS, ExpressJS. and Socket.IO</p>
                 <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://socketio-live-chat-bubbles.herokuapp.com/", "_blank")}>https://socketio-live-chat-bubbles.herokuapp.com/</a>
                 <br />
                 <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/altanyesilkurt/socketio-live-chat-bubbles", "_blank")}>https://github.com/altanyesilkurt/socketio-live-chat-bubbles</a>
@@ -32,8 +32,7 @@ const Portfolio = () => {
             text: "Live Chat Bubbles."
         },
         fadeIn: true,
-        fadeInSpeed: 500,
-        close:()=>{(this).popupboxConfigPortfolio.titleBar=null}
+        fadeInSpeed: 500
     }
 
     // City Guide App
@@ -41,7 +40,7 @@ const Portfolio = () => {
         const content = (
             <>
                 <img className="portfolio-image-popupbox" src={travel} alt="Travel Website Project..." />
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
+                <p>I developed responsive, user-friendly travel website UI using with ReactJS, Bootstrap, Html5 and Css3.</p>
                 <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://legend-travel.netlify.app/", "_blank")}>https://legend-travel.netlify.app/</a>
                 <br />
                 <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/altanyesilkurt/TravelWebsite", "_blank")}>https://github.com/altanyesilkurt/TravelWebsite</a>
@@ -64,10 +63,10 @@ const Portfolio = () => {
         const content = (
             <>
                 <img className="portfolio-image-popupbox" src={portfolio} alt="Portfolio Project..." />
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
+                <p>I developed my portfolio webpage using ReactJS, Material UI ,Html5 and Css3.</p>
                 <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://portfolio-rea-and-material-ui.herokuapp.com/", "_blank")}>https://portfolio-rea-and-material-ui.herokuapp.com/</a>
                 <br />
-                <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/portfilio", "_blank")}>https://github.com/8020Coding/portfilio</a>
+                <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/altanyesilkurt/portfolio", "_blank")}>https://github.com/altanyesilkurt/portfolio</a>
             </>
         )
         PopupboxManager.open({ content })
@@ -76,30 +75,29 @@ const Portfolio = () => {
     const popupboxConfigPortfolio = {
         titleBar: {
             enable: true,
-            text: "Poftfolio React and Material UI project."
+            text: "Portfolio React and Material UI project."
         },
         fadeIn: true,
         fadeInSpeed: 500
     }
 
     // Task Manager React and Redux Project
-    const openPopupboxTaskManager = () => {
+    const openPopupboxObjectRecognition = () => {
         const content = (
             <>
-                <img className="portfolio-image-popupbox" src={taskManager} alt="Task Manager React and Redux Project..." />
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-                <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://react-redux-task-manager.herokuapp.com/", "_blank")}>https://react-redux-task-manager.herokuapp.com/</a>
+                <img className="portfolio-image-popupbox" src={object} alt="Task Manager React and Redux Project..." />
+                <p>In this project, it is aimed to recognize the objects around the driving car and develop a warning mechanism against the objects that suddenly appear in front of the car.</p>
+                <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://www.youtube.com/watch?v=YazVo0NNg_k", "_blank")}>https://www.youtube.com/watch?v=YazVo0NNg_k</a>
                 <br />
-                <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/task-manager", "_blank")}>https://github.com/8020Coding/task-manager</a>
             </>
         )
         PopupboxManager.open({ content })
     }
 
-    const popupboxConfigTaskManager = {
+    const popupboxConfigObjectRecognition = {
         titleBar: {
             enable: true,
-            text: "Task Manager React and Redux project."
+            text: "Multiple Object Recognition on Videos Using Deep Learning Methods"
         },
         fadeIn: true,
         fadeInSpeed: 500
@@ -127,8 +125,8 @@ const Portfolio = () => {
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                     {/* - */}
-                    <div className="portfolio-image-box" onClick={openPopupboxTaskManager}>
-                        <img className="portfolio-image" src={taskManager} alt="Task Manager React and Redux Project..." />
+                    <div className="portfolio-image-box" onClick={openPopupboxObjectRecognition}>
+                        <img className="portfolio-image" src={object} alt="Multiple Object Recognition on Videos Using Deep Learning Methods..." />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
@@ -137,7 +135,7 @@ const Portfolio = () => {
             <PopupboxContainer {...popupboxConfigSocketIO} />
             <PopupboxContainer {...popupboxConfigTravelWebsite} />
             <PopupboxContainer {...popupboxConfigPortfolio} />
-            <PopupboxContainer {...popupboxConfigTaskManager} />
+            <PopupboxContainer {...popupboxConfigObjectRecognition} />
         </div>
     )
 }

@@ -23,7 +23,7 @@ const AboutMe = () => {
 
             All this is necessary to give your customers something that your competitors do not provide, or to present it too, but better!
 
-            After the website is finished and ready to deploy and sell a product or service. It is essential that your potential clients know about you. I will create an advertising campaign for you in  Google Adwords and Facebook!
+            After the website is finished and ready to deploy and sell a product or service. It is essential that your potential clients know about you. I will create an advertising campaign for you in  Google Adwords!
           </p>
         </div>
       </div>
