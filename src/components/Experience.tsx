@@ -16,7 +16,7 @@ const experienceData = [
   {
     company: "BtcTurk",
     position: "Mid. Software Developer",
-    period: "JUN 2022 - NOV 2022",
+    period: "JUN 2021 - DEC 2022",
     responsibilities: [
       "Contributed to the development and maintenance of one of the largest cryptocurrency exchange platforms, serving over 5 million users.",
       "Designed and implemented new features to enhance trading performance and security.",
@@ -26,7 +26,7 @@ const experienceData = [
   {
     company: "Litium Technologies",
     position: "Software Developer",
-    period: "JUN 2020 - JUN 2022",
+    period: "JUN 2020 - JUN 2021",
     responsibilities: [
       "Worked on geolocation tracking system (RTLS) for tracking assets and personnel within defined zones.",
       "Maintained and enhanced the Location Engine, Business Rule Engine, and Web UI to improve system accuracy and performance.",
