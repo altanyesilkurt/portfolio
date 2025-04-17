@@ -18,5 +18,8 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  build: {
+    outDir: 'build',
+  },
   base: '/', // Ensure base path is correctly set
 }));
