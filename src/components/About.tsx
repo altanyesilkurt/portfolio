@@ -63,7 +63,7 @@ const About = () => {
             <div className="relative w-64 h-64 md:w-80 md:h-80">
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 to-yellow-500 animate-pulse"></div>
               <img 
-                src="src/altan.jpg"
+                src="/uploads/altan.jpg"
                 alt="Altan Yesilkurt"
                 className="relative w-full h-full object-cover rounded-full p-2"
               />
