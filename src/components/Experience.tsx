@@ -24,7 +24,7 @@ const experienceData = [
     ]
   },
   {
-    company: "Litium Technologies",
+    company: "Litum Technologies",
     position: "Software Developer",
     period: "JUN 2020 - JUN 2021",
     responsibilities: [
